@@ -8,5 +8,7 @@ scikit-learn==1.7.1\
 numpy==1.26.3
 
 The LLaMA-3-8B-Instruct model used in this study was not manually modified. It was directly downloaded from ModelScope using the official `snapshot_download` interface, which ensures retrieval of the same pretrained weights across different environments. The downloaded checkpoint is automatically cached in a local directory and reused for fine-tuning, ensuring reproducibility of the experimental setup.
+# Reference
+Wang h, Pan l, Chen e, Wu x, et al. LLM-Enhanced Multimodal Fusion of SPECT Radiomics and Clinical Data for Predicting 131I Therapeutic Response in Differentiated Thyroid Cancer
 # License
 See [LICENSE](https://github.com/hangyu0202/Feature-Semantics-LLM-Enhancement?tab=Apache-2.0-1-ov-file#)
